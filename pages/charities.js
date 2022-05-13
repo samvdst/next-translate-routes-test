@@ -1,10 +1,10 @@
-import React from "react";
 import { useRouter } from "next/router";
+import React from "react";
 import LanguageSwitcher from "../components/languageSwitcher";
 import CurrentLocale from "../components/CurrentLocale";
 import Navigation from "../components/Navigation";
 
-function Home() {
+function Charities() {
   const router = useRouter();
   return (
     <div>
@@ -12,10 +12,10 @@ function Home() {
       <br />
       <Navigation />
       <br />
-      <div>Home Page</div>
+      <div>Charities Page</div>
       <CurrentLocale />
     </div>
   );
 }
 
-export default Home;
+export default Charities;

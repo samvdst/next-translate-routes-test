@@ -4,7 +4,7 @@ import LanguageSwitcher from "../components/languageSwitcher";
 import CurrentLocale from "../components/CurrentLocale";
 import Navigation from "../components/Navigation";
 
-function Home() {
+function Causes() {
   const router = useRouter();
   return (
     <div>
@@ -12,10 +12,10 @@ function Home() {
       <br />
       <Navigation />
       <br />
-      <div>Home Page</div>
+      <div>Causes Page</div>
       <CurrentLocale />
     </div>
   );
 }
 
-export default Home;
+export default Causes;
